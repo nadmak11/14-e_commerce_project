@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+
+    # НОВЫЙ БЛОК: Переменные окружения для контейнера
+    environment:
+      # Мы устанавливаем переменную DATABASE_PATH внутри контейнера.
+      # Путь '/app/data/shop.db' соответствует тому, как мы монтируем volume.
+      # '/app' - это наша WORKDIR из Dockerfile.
+      - DATABASE_PATH=/app/data/shop.db

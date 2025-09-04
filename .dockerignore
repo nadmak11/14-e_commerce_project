@@ -1,0 +1,15 @@
+# Игнорируем папки виртуального окружения
+venv
+.venv
+env
+
+# Игнорируем кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Игнорируем файлы IDE и кэш инструментов
+.vscode/
+.idea/
+.pytest_cache/

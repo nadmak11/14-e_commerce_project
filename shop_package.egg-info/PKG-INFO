@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: shop_package
+Version: 0.1.0
+Summary: Простой пакет для имитации работы интернет-магазина
+Author: Твоё Имя
+Requires-Python: >=3.7
+Requires-Dist: requests
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
