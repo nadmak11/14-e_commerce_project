@@ -1,4 +1,4 @@
-# Добавлена новая строка для обработки команды pull
+# Добавлена новая строка для отработки команды pull
 import argparse
 import sys
 import sqlite3
