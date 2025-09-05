@@ -1,5 +1,6 @@
 # setup.py
 # Изменение файла
+# Новая строка
 from setuptools import setup, find_packages
 
 setup(
